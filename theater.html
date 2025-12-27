@@ -1,0 +1,30 @@
+<!-- IMAX CINEMA -->
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IMAX YouTube Cinema</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="imax-wrapper">
+  <div class="imax-screen">
+    <div class="curtain left"></div>
+    <div class="curtain right"></div>
+
+    <div class="start-btn" id="startBtn">▶ START IMAX</div>
+    <div class="fade" id="fade"></div>
+    <div id="player"></div>
+  </div>
+</div>
+<div class="control-buttons">
+  <button id="prevBtn">◀ ก่อนหน้า</button>
+  <button id="nextBtn">ถัดไป ▶</button>
+</div>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+</body>
+</html>
